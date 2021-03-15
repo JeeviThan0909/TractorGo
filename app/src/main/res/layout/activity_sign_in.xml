@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startup.SignInActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:padding="5dp"
+            android:layout_width="220dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tractorgo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username_prompt"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password_prompt"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="15dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Passenger" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/driver" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#D8D5D5"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/no_sign_in"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/driver_or_passenger"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_time_login"
+            android:textColor="@color/black"
+            android:backgroundTint="#D8D5D5"/>
+
+    </LinearLayout>
+</LinearLayout>

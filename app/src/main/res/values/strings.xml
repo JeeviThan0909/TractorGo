@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TractorGo</string>
+    <string name="username_prompt">Please enter your username…</string>
+    <string name="password_prompt">Please enter your password</string>
+    <string name="passenger">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_sign_in">Don\'t want to sign up or login?</string>
+    <string name="driver_or_passenger">Are you a driver or a passenger?</string>
+    <string name="one_time_login">One Time Login</string>
+    <string name="log_in">Log In</string>
 </resources>
